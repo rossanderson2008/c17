@@ -82,7 +82,8 @@ function draw() {
   background(180);
   //displaying score
   text("Score: "+ score, 500,50);
-  
+  camera.position.x= trex.x
+  camera.position.y= trex.y
   
   if(gameState === PLAY){
 
